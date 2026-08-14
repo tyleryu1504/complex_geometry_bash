@@ -6,9 +6,7 @@ user-provided requirements.  Points are represented by independent symbols
 (z_X, zb_X).  Constraints are maintained as polynomials, and the engine learns
 conjugate substitution rules whenever a single-conjugate equation is detected.
 """ 
-"""
-test
-"""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
